@@ -18,7 +18,10 @@ const Hero = () => {
             Find the best deals on fashion, electronics, and more—all at
             unbeatable prices! Call to Action (CTA):
           </p>
-          <Button  >Shop Now</Button>
+          <div  className=" flex gap-2">
+            <Button>Shop Now</Button>
+            <Button outline>Explore Deals</Button>
+          </div>
         </div>
         <img src="https://i.imgur.com/2DjWbaP.png" alt="" />
       </div>
