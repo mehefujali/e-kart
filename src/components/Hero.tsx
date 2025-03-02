@@ -3,7 +3,7 @@ import Button from "../Shaired/Button";
 const Hero = () => {
   return (
     <div>
-      <div className=" container mx-auto flex items-center justify-between">
+      <div className=" container mx-auto flex items-center justify-between flex-col-reverse w-11/12 xl:w-full md:flex-row">
         <div className=" space-y-4">
           <h1 className=" text-2xl font-bold md:text-3xl lg:text-4xl flex gap-2 items-center ">
             {" "}
@@ -18,12 +18,12 @@ const Hero = () => {
             Find the best deals on fashion, electronics, and more—all at
             unbeatable prices! Call to Action (CTA):
           </p>
-          <div  className=" flex gap-2">
+          <div  className=" flex gap-2 items-center">
             <Button>Shop Now</Button>
             <Button outline>Explore Deals</Button>
           </div>
         </div>
-        <img src="https://i.imgur.com/2DjWbaP.png" alt="" />
+        <div><img className=" w-full" src="https://i.imgur.com/2DjWbaP.png" alt="" /></div>
       </div>
     </div>
   );

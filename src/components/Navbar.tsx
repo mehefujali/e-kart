@@ -3,7 +3,7 @@ import './navbar.css'
 const Navbar = () => {
   return (
     <div className=" w-full bg-white sticky top-0">
-      <div className="container mx-auto  py-3 flex justify-between items-center ">
+      <div className="container mx-auto  w-11/12 xl:w-full  py-3 flex justify-between items-center ">
         {" "}
         <div className=" flex items-center text-xl font-bold gap-2 ">
           <img
@@ -14,7 +14,7 @@ const Navbar = () => {
           E KART
         </div>{" "}
         <div className=" w-fit">
-             <ul className="Navlinks flex gap-6 items-center">
+             <ul className="Navlinks flex gap-2 md:gap-6 items-center">
                   <NavLink to={"/"} >Home</NavLink>
                   <NavLink to={"/cart"} >Cart</NavLink>
                   <NavLink to={"/about"} >About us</NavLink>
