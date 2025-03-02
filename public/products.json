@@ -1,0 +1,138 @@
+[
+      {
+        "id": 1,
+        "name": "Apple iPhone 15 Pro (128GB) - Blue Titanium",
+        "category": "Electronics",
+        "price": 124900,
+        "image": "https://m.media-amazon.com/images/I/81+GIkwqLIL._AC_UF1000,1000_QL80_.jpg",
+        "rating": 4.8,
+        "inStock": true
+      },
+      {
+        "id": 2,
+        "name": "Samsung Galaxy S23 Ultra (256GB) - Phantom Black",
+        "category": "Electronics",
+        "price": 114999,
+        "image": "https://cdn.beebom.com/mobile/samsung-galaxy-s23-ultra-front-and-back-2.png",
+        "rating": 4.7,
+        "inStock": true
+      },
+      {
+        "id": 3,
+        "name": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+        "category": "Electronics",
+        "price": 29990,
+        "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1682757035/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/272419_jqvb9x.png",
+        "rating": 4.6,
+        "inStock": true
+      },
+      {
+        "id": 4,
+        "name": "Nike Air Force 1 '07 Sneakers - White",
+        "category": "Fashion",
+        "price": 7995,
+        "image": "https://www.thenextsole.com/storage/images/FJ4146-104.png",
+        "rating": 4.5,
+        "inStock": true
+      },
+      {
+        "id": 5,
+        "name": "Adidas Ultraboost Light Running Shoes",
+        "category": "Fashion",
+        "price": 17999,
+        "image": "https://startfitness.co.uk/cdn/shop/products/adidas-Ultra-Boost-Light-HQ6351.jpg",
+        "rating": 4.6,
+        "inStock": true
+      },
+      {
+        "id": 6,
+        "name": "Apple MacBook Air M2 (13-inch, 256GB) - Space Gray",
+        "category": "Computers",
+        "price": 114900,
+        "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=1078&hei=730&fmt=png-alpha&.v=1684518479433",
+        "rating": 4.8,
+        "inStock": true
+      },
+      {
+        "id": 7,
+        "name": "Asus ROG Strix G16 Gaming Laptop (RTX 4060, 16GB RAM, 512GB SSD)",
+        "category": "Computers",
+        "price": 129990,
+        "image": "https://in.store.asus.com/media/catalog/product/g/6/g614jv-n4141ws_4-zone_rgb_eclps_gry_1_.png",
+        "rating": 4.7,
+        "inStock": true
+      },
+      {
+        "id": 8,
+        "name": "Logitech MX Master 3S Wireless Mouse",
+        "category": "Accessories",
+        "price": 10999,
+        "image": "https://media.croma.com/image/upload/v1681404219/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/258454_0_rmm57f.png",
+        "rating": 4.6,
+        "inStock": true
+      },
+      {
+        "id": 9,
+        "name": "Apple iPad Air (5th Gen, 64GB, Wi-Fi) - Space Gray",
+        "category": "Tablets",
+        "price": 59999,
+        "image": "https://www.sathya.store/img/product/JR7F6gO2DQM8PIf6.png",
+        "rating": 4.7,
+        "inStock": true
+      },
+      {
+        "id": 10,
+        "name": "Samsung Galaxy Tab S9 (128GB, Wi-Fi) - Beige",
+        "category": "Tablets",
+        "price": 85999,
+        "image": "https://screenmoove.com/cdn/shop/files/SM-X710NZEAEUB_a9121e83-059d-4b8b-b3e4-764049a652dc_997x700.webp",
+        "rating": 4.6,
+        "inStock": true
+      },
+      {
+        "id": 11,
+        "name": "Apple Watch Series 9 (GPS, 45mm) - Midnight Aluminum",
+        "category": "Wearables",
+        "price": 44999,
+        "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png",
+        "rating": 4.8,
+        "inStock": true
+      },
+      {
+        "id": 12,
+        "name": "Samsung Galaxy Watch 6 Classic (47mm, LTE) - Black",
+        "category": "Wearables",
+        "price": 39999,
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/my/2407/gallery/my-galaxy-watch-ultra-l705-sm-l705fztaxme-542169558?$684_547_PNG$",
+        "rating": 4.6,
+        "inStock": true
+      },
+      {
+        "id": 13,
+        "name": "Sony PlayStation 5 Console (Disc Edition)",
+        "category": "Gaming",
+        "price": 54990,
+        "image": "https://i0.wp.com/consolefixit.com/wp-content/uploads/2023/04/51926-485x485-1.webp",
+        "rating": 4.9,
+        "inStock": true
+      },
+      {
+        "id": 14,
+        "name": "Microsoft Xbox Series X (1TB) - Black",
+        "category": "Gaming",
+        "price": 49990,
+        "image": "https://cms-assets.xboxservices.com/assets/37/d2/37d211d0-5c2c-42c6-bb71-ca7492c5e088.png?n=642227_Hero-Gallery-0_C1_857x676.png",
+        "rating": 4.8,
+        "inStock": true
+      },
+      {
+        "id": 15,
+        "name": "Bose SoundLink Revolve+ Bluetooth Speaker - Black",
+        "category": "Audio",
+        "price": 24999,
+        "image": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/speakers/soundlink_revolve_ii/product_silo_images/SoundLink_Revolve_II_Black_Ecom_2.png/jcr:content/renditions/cq5dam.web.1920.1920.png",
+        "rating": 4.7,
+        "inStock": true
+      }
+    ]
+    
