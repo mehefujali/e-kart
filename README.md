@@ -1,7 +1,8 @@
 # **E-Kart**  
 
 E-Kart is a simple and user-friendly e-commerce platform designed to provide a seamless online shopping experience. It allows users to browse products, add them to the cart, and proceed to checkout with ease.  
-
+# **Live link**  
+https://e-kart-k.netlify.app
 ## **Features**  
 - 🛍️ Browse a wide range of products  
 - 🛒 Add and remove items from the cart  
@@ -33,4 +34,4 @@ E-Kart is a simple and user-friendly e-commerce platform designed to provide a s
 This project is open-source and available under the **MIT License**.  
 
 ## **Contact**  
-For any queries, reach out at **support@ekart.com**.
+For any queries, reach out at **mehefujalim@gmail.com**.
