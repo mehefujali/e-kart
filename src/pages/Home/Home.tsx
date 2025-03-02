@@ -1,3 +1,4 @@
+import Feature from "../../components/Feature";
 import Hero from "../../components/Hero";
 
 const Home = () => {
@@ -6,6 +7,9 @@ const Home = () => {
             <div>
                   <div>
                     <Hero/>
+                  </div>
+                  <div>
+                        <Feature/>
                   </div>
             </div>
       );
