@@ -1,3 +1,4 @@
+import toast from "react-hot-toast";
 import { useCart } from "../context/CartProvider";
 import Button from "../Shaired/Button";
 
@@ -27,8 +28,10 @@ const ProductCard = ({ product }: ProductProps) => {
             : item
         )
       );
+     
     } else {
       setCart([...cart, { ...product, quantity: 1 }]);
+      toast.success("Item added to the cart")
     }
   };
 

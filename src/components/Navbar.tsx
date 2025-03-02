@@ -1,10 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
 import { useCart } from "../context/CartProvider";
 const Navbar = () => {
       const {cart} = useCart()
   return (
-    <div className=" w-full bg-white sticky top-0">
+    <div className=" w-full bg-white sticky top-0 z-40">
       <div className="container mx-auto  w-11/12 xl:w-full  py-3 flex justify-between items-center ">
         {" "}
         <div className=" flex items-center text-xl font-bold gap-2 ">
@@ -19,7 +19,7 @@ const Navbar = () => {
           <ul className="Navlinks flex gap-2 md:gap-6 items-center">
             <NavLink to={"/"}>Home</NavLink>
             <NavLink to={"/about"}>About us</NavLink>
-            <NavLink to={"/cart"}>
+            <Link to={"/cart"}>
               <div className=" p-3 rounded-full bg-amber-100  relative">
                   <p className=" absolute -top-1 -right-2 p-1 rounded-full bg-white">{cart.length}</p>
                 <img
@@ -28,7 +28,7 @@ const Navbar = () => {
                   alt=""
                 />
               </div>
-            </NavLink>
+            </Link>
           </ul>
         </div>
       </div>
