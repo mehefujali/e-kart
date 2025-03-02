@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../Shaired/Button";
 
 const Hero = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
             unbeatable prices! Call to Action (CTA):
           </p>
           <div  className=" flex gap-2 items-center">
-            <Button>Shop Now</Button>
+            <Link to={'/cart'}><Button>Shop Now</Button></Link>
             <Button outline>Explore Deals</Button>
           </div>
         </div>
