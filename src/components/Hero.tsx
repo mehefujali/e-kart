@@ -1,3 +1,5 @@
+import Button from "../Shaired/Button";
+
 const Hero = () => {
   return (
     <div>
@@ -16,6 +18,7 @@ const Hero = () => {
             Find the best deals on fashion, electronics, and more—all at
             unbeatable prices! Call to Action (CTA):
           </p>
+          <Button  >Shop Now</Button>
         </div>
         <img src="https://i.imgur.com/2DjWbaP.png" alt="" />
       </div>
